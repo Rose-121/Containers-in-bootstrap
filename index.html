@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+
+    <style>
+      #box-fluid {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+      }
+      #bgb {
+        border: 7px solid rgb(162, 127, 218);
+        border-radius: 10px;
+        box-shadow: 0px 0px 30px rgb(64, 107, 163);
+        color: rgb(115, 75, 190);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container bg-dark text-danger mt-5">
+      <h1>My first Bootstrap Page</h1>
+      <p>This Part is INside a Container Class</p>
+      <p>The container class provides a responsive fixed width container</p>
+    </div>
+
+    <div class="container-fluid bg-warning mt-5" id="box-fluid">
+      <h1>My first Bootstrap Page</h1>
+      <p>This Part is INside a Container Class</p>
+      <p>The container class provides a responsive fixed width container</p>
+    </div>
+
+    <div
+      class="container bg-secondary text-warning mt-5 border-warning rounded"
+    >
+      <h1>My first Bootstrap Page</h1>
+      <p>This Part is INside a Container Class</p>
+      <p>The container class provides a responsive fixed width container</p>
+    </div>
+
+    <div class="container bg-light mt-5 mb-5" id="bgb">
+      <h1>My first Bootstrap Page</h1>
+      <p>This Part is INside a Container Class</p>
+      <p>The container class provides a responsive fixed width container</p>
+    </div>
+  </body>
+</html>
